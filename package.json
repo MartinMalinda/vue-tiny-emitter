@@ -7,6 +7,7 @@
   "module": "dist/index.module.js",
   "unpkg": "dist/index.umd.js",
   "scripts": {
+    "prepublishOnly": "npm run build",
     "build": "microbundle --external vue,tiny-emitter",
     "dev": "microbundle watch",
     "test": "jest"
