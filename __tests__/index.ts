@@ -1,4 +1,4 @@
-import { defineComponent, createApp, h, nextTick } from 'vue';
+import { defineComponent, createApp, h, nextTick } from 'vue-demi';
 import { once, emit, emitter, useSubscribe } from '../src/';
 
 describe('emitter', () => {

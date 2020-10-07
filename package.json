@@ -10,7 +10,8 @@
     "prepublishOnly": "npm run build",
     "build": "microbundle --external vue,tiny-emitter",
     "dev": "microbundle watch",
-    "test": "jest"
+    "test": "jest",
+    "release": "release-it"
   },
   "author": "Martin Malinda",
   "license": "MIT",
@@ -23,10 +24,15 @@
     "release-it": "^14.0.4",
     "ts-jest": "^26.4.1",
     "typescript": "^4.0.3",
-    "vue": "^3.0.0"
+    "vue": "^2.6.1",
+    "@vue/composition-api": "^1.0.0-beta.1"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0",
+    "@vue/composition-api": "^1.0.0-beta.1"
   },
   "dependencies": {
     "tiny-emitter": "^2.1.0",
-    "vue-demi": "^0.4.0"
+    "vue-demi": "latest"
   }
 }
