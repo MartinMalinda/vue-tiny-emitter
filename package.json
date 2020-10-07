@@ -1,5 +1,5 @@
 {
-  "name": "vue-computed-macros",
+  "name": "vue-use-emit",
   "version": "0.0.0",
   "description": "",
   "main": "src/index.ts",
@@ -16,6 +16,7 @@
     "vue": "^3.0.0"
   },
   "dependencies": {
+    "mitt": "^2.1.0",
     "vue-demi": "^0.4.0"
   }
 }
